@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        sh 'ping 127.0.0.1'
+        sh 'echo'
       }
     }
   }
