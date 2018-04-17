@@ -1,9 +1,14 @@
 pipeline {
   agent any
   stages {
-    stage('error') {
+    stage('first') {
       steps {
         echo 'Hello Jenkins'
+      }
+    }
+    stage('ok') {
+      steps {
+        echo 'OKOKOKOKOKO'
       }
     }
   }
