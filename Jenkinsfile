@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh 'echo "Hello World !"'
+        echo 'Hello Jenkins'
       }
     }
   }
